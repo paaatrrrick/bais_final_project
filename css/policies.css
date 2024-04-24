@@ -1,0 +1,40 @@
+/* style.css */
+* {
+    /* add a sans serif font*/
+    font-family: 'Arial', sans-serif;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .list li:last-child {
+    border-bottom: none;
+  }
+  
+  .list li:hover {
+    background-color: #f0f0f0;
+  }

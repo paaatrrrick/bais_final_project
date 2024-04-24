@@ -11,6 +11,29 @@ body {
     /* overflow: hidden; */
 }
 
+.policies{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #4C3AFF;
+    z-index: 2000;
+    gap: 12px;
+    padding-bottom: 60px;
+    padding-left: 24px;
+    padding-top: -24px;
+}
+
+.policies a{
+    text-decoration: underline;
+    color: white;
+    font-size: 18px;
+}
+
+.policies p{
+    color: white;
+    font-size: 18px;
+}
+
 
 /* ------------------------------------ */
 
