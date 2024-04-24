@@ -21,13 +21,16 @@
     <meta property="og:image" content="https://res.cloudinary.com/dlk3ezbal/image/upload/v1713978203/Screen_Shot_2024-04-24_at_12.03.11_PM_mwll4g.png">
     <meta property="og:url" content="https://partikfoster.com">
 
-    <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="32x32" href=".images/favicon/favicon-32x32.jpg">
     <link rel="icon" type="image/png" sizes="16x16" href=".images/favicon/favicon-16x16.jpg">
     <link rel="apple-touch-icon" sizes="180x180" href=".images/favicon/apple-touch-icon.jpg">
     <link rel="icon" type="image/png" sizes="192x192" href=".images/favicon/android-chrome-192x192.jpg"> 
     <link rel="icon" type="image/png" sizes="512x512" href=".images/favicon/android-chrome-512x512.jpg"> 
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="cookies/cookie-popup.css">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W30KWXDM81"></script>
     <script>
@@ -37,6 +40,8 @@
 
     gtag('config', 'G-W30KWXDM81');
     </script>
+
+
 </head>
 <body>
     <div>
@@ -184,5 +189,17 @@
             </div>
         </div>
     </div>
+    <div id="cookie-popup">
+        <p>
+          By using this site you agree to the storing of cookies on your device to
+          enhance site navigation and to analyze site usage. Learn more about our
+          <a href="./policies/cookies-policy.html" target="_blank">cookie policy</a>.
+        </p>
+        <p>
+          <button id="accept-cookies" >Accept</button>
+        </p>
+      </div>
+  
+      <script src="./cookies/cookie-popup.js"></script>
 </body>
 </html>
